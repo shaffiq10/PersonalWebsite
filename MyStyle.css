@@ -123,6 +123,19 @@
                 padding: 6px 10px;
             }
         }
+.gif-bullet {
+    list-style: none; /* remove default bullets */
+    padding-left: 0;
+}
+
+.gif-bullet li {
+    background: url('bullet.gif') no-repeat left center;
+    background-size: 20px 20px; /* control GIF size */
+    padding-left: 30px; /* space for the GIF */
+    margin-bottom: 10px;
+}
+
+
 
 
 
