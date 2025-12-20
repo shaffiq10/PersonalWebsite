@@ -123,17 +123,21 @@
                 padding: 6px 10px;
             }
         }
-.gif-bullet {
-    list-style: none;
+.skills-list {
+    list-style: none;       /* remove default bullets */
     padding-left: 0;
+    margin-top: 15px;
 }
 
-.gif-bullet li {
-    background: url('skillbullets.gif') no-repeat left center;
-    background-size: 20px 20px; /* control GIF size */
-    padding-left: 30px; /* space for the GIF */
+.skills-list li {
+    background: url('skill-bullet.png') no-repeat left center;
+    background-size: 20px 20px; /* bullet size */
+    padding-left: 35px;         /* space between bullet & text */
     margin-bottom: 10px;
+    font-size: 1.05em;
 }
+
+
 
 
 
