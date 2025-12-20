@@ -124,16 +124,17 @@
             }
         }
 .gif-bullet {
-    list-style: none; /* remove default bullets */
+    list-style: none;
     padding-left: 0;
 }
 
 .gif-bullet li {
-    background: url('bullet.gif') no-repeat left center;
+    background: url('skillbullets.gif') no-repeat left center;
     background-size: 20px 20px; /* control GIF size */
     padding-left: 30px; /* space for the GIF */
     margin-bottom: 10px;
 }
+
 
 
 
