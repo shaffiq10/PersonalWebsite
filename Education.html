@@ -1,0 +1,229 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+    <title>My Education</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('BG.jpg') center/cover no-repeat fixed;
+    color: #333;
+    line-height: 1.6;
+        }
+.picture-card img {
+            cursor: pointer;
+            transition: transform 0.3s ease;
+        }
+
+        /* Hidden overlay */
+        .lightbox {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.8);
+            justify-content: center;
+            align-items: center;
+        }
+
+        .lightbox img {
+            max-width: 90%;
+            max-height: 90%;
+            border-radius: 10px;
+        }
+
+        /* Show overlay when targeted */
+        .lightbox:target {
+            display: flex;
+        }
+        header {
+            background: linear-gradient(135deg, #4b79a1, #283e51);
+            color: white;
+            padding: 50px 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #1f2d3a;
+            padding: 15px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 20px;
+            font-size: 1.1em;
+            padding: 8px 14px;
+            border-radius: 6px;
+            transition: background 0.3s;
+        }
+        nav a:hover {
+            background-color: #3a5068;
+        }
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #283e51;
+        }
+        .edu-card {
+            background: #f9f9f9;
+            border-left: 6px solid #4b79a1;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        }
+        .edu-card h3 {
+            margin-top: 0;
+            color: #283e51;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #1f2d3a;
+            color: white;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 id="edu">My Education</h1>
+        <p>A timeline of my academic journey</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+	<a href="#Project">Past Project</a>
+        <a href="AboutMe.html">About Me</a>
+        <a href="WorkExperience.html" target="_blank">Work Experience</a>
+    </nav>
+
+<div class="container" style=" background: url('bg1.jpg') center/cover no-repeat fixed;
+    color: #333;
+    line-height: 1.6;">
+    <h2>Education Background</h2>
+
+    <table class="edu-table" style=" background-color: white;">
+        <thead>
+            <tr>
+                <th>Logo & Institution</th>
+                <th>Year</th>
+		<th>Location</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><div class="cell-content"><img src="UiTMlogo.png" alt="UiTM Logo"><span><a href="https://johor.uitm.edu.my/index.php" target="_blank">Universiti Teknologi MARA (UiTM)</a></span></div>
+		</td>
+                <td>2023 - Present</td>
+        	 <td>
+		<a><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3986.057367040534!2d102.7293026!3d2.4879644!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31ce2c6ce929a871%3A0xc0dfa5fe6922a589!2sUiTM%20Cawangan%20Johor%2C%20Kampus%20Segamat!5e0!3m2!1sen!2smy!4v1766210457044!5m2!1sen!2smy"style="width:100%; height:250px; border:0;"
+    loading="lazy"></iframe>
+</a>
+</td>
+</tr>
+
+            <tr>
+                <td><div class="cell-content"><img src="SMKSSlogo.png" alt="SMKSS Logo"><span><a href="https://www.facebook.com/p/RASMI-SMK-Seri-Sembrong-100082853936987/?locale=ms_MY" target="_blank">Sekolah Menengah Seri Sembrong (SMKSS)</a></span></div>
+
+		</td>
+                <td>2018 - 2023</td>
+                <td>
+                <a><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3987.150575635206!2d103.3862075!3d2.095354!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d00c6ed40eca65%3A0xdc0f92cff58384ec!2sSekolah%20Menengah%20Kebangsaan%20Sembrong!5e0!3m2!1sen!2smy!4v1766212885244!5m2!1sen!2smy"style="width:100%; height:250px; border:0;"
+        loading="lazy"></iframe></a>
+                </td>
+                
+            </tr>
+            <tr>
+                <td><div class="cell-content"><img src="SKlogo.png" alt="Primary School Logo"><span><a href="https://skfkt.wordpress.com/" target="_blank">Sekolah Rendah Kebangsaan Felda Kahang Timur</a></span></div>
+		
+		</td>
+                <td>2012 - 2017</td>
+                <td>
+		<a><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3987.1688846587253!2d103.4905695!3d2.0881505000000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d00b2c3ce0a31f%3A0x7b955b2835c2290!2sSK%20(Felda)%20Kahang%20Timur!5e0!3m2!1sen!2smy!4v1766212994479!5m2!1sen!2smy" style="width:100%; height:250px; border:0;"
+        loading="lazy"></iframe></a>
+		</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+	<div class="container" style=" background: url('bg1.jpg') center/cover no-repeat fixed;
+    color: #333;
+    line-height: 1.6;">
+	<h3 id="Project">Past Project</h3>
+    <div class="picture-gallery">
+        <div class="picture-card">
+            <a href="#project1">
+                <img src="project1.jpg" alt="Project 1">
+            </a>
+            <div class="caption">Traditional Japanese Architecture Infographic</div>
+        </div>
+        <div class="picture-card">
+            <a href="#project2">
+                <img src="project2.jpg" alt="Project 2">
+            </a>
+            <div class="caption">Cover Design for Reusable Bag</div>
+        </div>
+        <div class="picture-card">
+            <a href="#project3">
+                <img src="project3.jpg" alt="Project 3">
+            </a>
+            <div class="caption">Archive Infographic</div>
+        </div>
+    </div>
+
+    <!-- Lightbox overlays -->
+    <div id="project1" class="lightbox">
+        <a href="#"><img src="project1.jpg" alt="Project 1 Enlarged"></a>
+    </div>
+    <div id="project2" class="lightbox">
+        <a href="#"><img src="project2.jpg" alt="Project 2 Enlarged"></a>
+    </div>
+    <div id="project3" class="lightbox">
+        <a href="#"><img src="project3.jpg" alt="Project 3 Enlarged"></a>
+    </div>
+
+   <h2>Project Videos</h2>
+
+<div class="video-gallery">
+    <video controls>
+        <source src="video4.mp4" type="video/mp4">
+    </video>
+
+    <video controls>
+        <source src="video2.mp4" type="video/mp4">
+    </video>
+
+    <video controls>
+        <source src="video3.mp4" type="video/mp4">
+    </video>
+
+    <video controls class="center-video">
+        <source src="video1.mp4" type="video/mp4">
+    </video>
+
+</div>
+</div>
+
+<a href="#edu" class="back-to-top">Back to Top</a>
+
+    <footer>
+        <p>&copy; 2025 Shaffiq's Personal Website</p>
+        <p>Follow me on social media!</p>
+	<a href="https://www.facebook.com/" target=_blank"><img src="fb.png"width="40"></a>
+<a href="https://www.instagram.com/" target=_blank"><img src="insta.png"width="40"></a>
+    </footer>
+</body>
+
+</html>
